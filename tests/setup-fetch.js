@@ -1,0 +1,1 @@
+global.fetch = (...args) => import('node-fetch').then(mod => mod.default(...args));
